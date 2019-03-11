@@ -1,0 +1,25 @@
+import java.util.*;
+public class Week1_Try {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        // TODO code application logic here
+    
+   Scanner input=new Scanner(System.in);
+    String size =input.nextLine();
+    char box[]=new char[size.length()];
+    for(int i=0;i<size.length();i++){
+     box[i]=size.charAt(i);
+        
+    }
+    for(int j=0;j<size.length();j++){
+         System.out.println(box[j]);
+    }
+    
+    
+    
+    }
+    
+}
